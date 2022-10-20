@@ -1,17 +1,22 @@
 import React from "react";
 import { BiCheck } from "react-icons/bi";
-import styles from "../../styles/services.module.css";
+import doctor from '../assets/images/doctor22.png'
+import styles from "../styles/Services.module.css";
 import { useTranslation } from "react-i18next";
 
 const Services = () => {
-  const [t, i18n] = useTranslation("globals");
+  const [t] = useTranslation("globals");
 
   return (
     <section id="services">
       <h5 className={styles["h5"]}>{t("experience.skills")}</h5>
       <h2>{t("experience.title")}</h2>
+      
       <div className={styles["services_container"]}>
         <article className={styles["service"]}>
+        <div className={styles.docContainer}>
+          <img className={styles.imgDoctor} src={doctor} alt="doctor" />
+        </div>
           <div className={styles["service_head"]}>
             <h3>Calificación de la perdida de capacidad Laboral</h3>
           </div>
@@ -37,6 +42,9 @@ const Services = () => {
         </article>
 
         <article className={styles["service"]}>
+        <div className={styles.docContainer}>
+          <img className={styles.imgDoctor} src={doctor} alt="doctor" />
+        </div>
           <div className={styles["service_head"]}>
             <h3>Correlacion Médico Legal</h3>
           </div>
@@ -62,6 +70,9 @@ const Services = () => {
         </article>
 
         <article className={styles["service"]}>
+        <div className={styles.docContainer}>
+          <img className={styles.imgDoctor} src={doctor} alt="doctor" />
+        </div>
           <div className={styles["service_head"]}>
             <h3>Asesoría Médico-Legal</h3>
           </div>
@@ -87,6 +98,9 @@ const Services = () => {
         </article>
 
         <article className={styles["service"]}>
+        <div className={styles.docContainer}>
+          <img className={styles.imgDoctor} src={doctor} alt="doctor" />
+        </div>
           <div className={styles["service_head"]}>
             <h3>Certificado de discapacidad</h3>
           </div>
@@ -112,6 +126,9 @@ const Services = () => {
         </article>
 
         <article className={styles["service"]}>
+        <div className={styles.docContainer}>
+          <img className={styles.imgDoctor} src={doctor} alt="doctor" />
+        </div>
           <div className={styles["service_head"]}>
             <h3>Servicio de Apelación o "No Conformidad"</h3>
           </div>

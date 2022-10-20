@@ -13,6 +13,17 @@
     transition: var(--transition);
   }
   
+
+  .imgDoctor {
+    width: 250px;
+    height: 300px;
+    text-align: center;
+  }
+
+  .docContainer {
+    text-align: center;
+  }
+
   .service:hover {
     background: transparent;
     border-color: var(--color-primary-variant);

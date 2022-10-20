@@ -1,18 +1,15 @@
+
+  
+
 .about_container {
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
-    width: var(--container-width-lg);
+    width: 75%;
     margin: 0 auto;
   }
   
-  .navVidas {
-    text-align: center;
-    margin: 0%;
-    display: flex;
-    justify-content: space-between;
-    gap: 3rem;
-  }
+  
   
   a {
     text-decoration: none;
@@ -72,19 +69,23 @@
   }
   
   .about_card {
-    background: #dcdcdc;
-    border: 1px solid transparent;
+    background: white;
+    border: 1px solid blueviolet;
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
     transition: var(--transition);
-    color: #ba55d3;
+    color: blueviolet;
+  }
+
+  small {
+    font-size: 27px;
   }
   
   .about_card:hover {
-    background: transparent;
+    background: #dcdcdc;
     border-color: var(--color-primary-variant);
-    cursor: default;
+    cursor: pointer;
   }
   
   .about_icon {
@@ -94,12 +95,12 @@
   }
   
   .about_card h5 {
-    font-size: 0.95rem;
+    font-size: 2rem;
   }
   
   .about_card small {
-    font-size: 0.7rem;
-    color: #ba55d3;
+    font-size: 17px;
+    color: blueviolet;
   }
   
   .about_content p {

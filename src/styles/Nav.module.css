@@ -1,0 +1,18 @@
+.navVidas {
+    text-align: center;
+    margin: 0;
+    display: flex;
+    height: 3em;
+    justify-content: space-between;
+    gap: 3rem;
+    background-color: blueviolet;
+    padding: 1em 3em;
+  }
+
+  .navContainer {
+    color: white;
+  }
+
+  a {
+    color: white;
+  }

@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import { MdOutlineEmail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
@@ -6,9 +6,7 @@ import styles from "../styles/Contact.module.css";
 import { useTranslation } from "react-i18next";
 
 const Contact = () => {
-  const [t, i18n] = useTranslation("globals");
-
-  const form = useRef();
+  const [t] = useTranslation("globals");
 
   return (
     <section id="contact">

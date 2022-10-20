@@ -1,24 +1,20 @@
 import React from "react";
 import styles from "../styles/About.module.css";
-import Present from "../public/Bienvenidos a VIDAS.png";
+import Present from "../assets/images/Bienvenidos a VIDAS.png";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 import { useTranslation } from "react-i18next";
 
 const About = () => {
-  const [t, i18n] = useTranslation("globals");
+  const [t] = useTranslation("globals");
 
   return (
     <div className={styles.about_content}>
-      <nav className={styles.navVidas}>
-        <a href="">Servicios</a>
-        <a href="">Contacto</a>
-        <a href="">Ubicación</a>
-        <a href="">Conócenos</a>
-      </nav>
-      <img className={styles.presentation} src={Present} alt="Presentacion" />
       
+      <div className={styles.imgContainer}>
+        <img className={styles.presentation} src={Present} alt="Presentacion" />
+      </div>
       <div className={styles.about_cards}>
         <article className={styles.about_card}>
           <FaAward className={styles.about_icon} />
