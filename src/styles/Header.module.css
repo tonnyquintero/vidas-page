@@ -1,0 +1,27 @@
+.imgContainer {
+    width: 75%;
+    height: 25em;
+    display: flex;
+
+    margin: 0 auto;
+    padding-bottom: 3em;
+}
+
+.presentation {
+    width: 79%;
+}
+
+.bienvenido {
+    width: 20%;
+    height: 8em;
+    padding-top: 15em;
+
+}
+
+
+@media screen and (max-width: 600px) {
+  
+    .presentation {
+      display: none;
+    }
+}

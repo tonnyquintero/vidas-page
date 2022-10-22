@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "../styles/About.module.css";
-import Present from "../assets/images/Bienvenidos a VIDAS.png";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -10,11 +9,9 @@ const About = () => {
   const [t] = useTranslation("globals");
 
   return (
+    <>
     <div className={styles.about_content}>
       
-      <div className={styles.imgContainer}>
-        <img className={styles.presentation} src={Present} alt="Presentacion" />
-      </div>
       <div className={styles.about_cards}>
         <article className={styles.about_card}>
           <FaAward className={styles.about_icon} />
@@ -37,6 +34,7 @@ const About = () => {
         {t("about.letsTalk")}
       </a>
     </div>
+    </>
   );
 };
 

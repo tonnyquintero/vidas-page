@@ -1,5 +1,4 @@
 
-  
 
 .about_container {
     display: grid;
@@ -103,6 +102,11 @@
     color: blueviolet;
   }
   
+  .about_content {
+    width: 75%;
+    margin: 0 auto;
+  }
+
   .about_content p {
     margin: 2rem 0 2.6rem;
     color: gray;

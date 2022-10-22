@@ -1,5 +1,5 @@
 .services_container {
-    width: var(--container-width-lg);
+    width: 75%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -15,8 +15,8 @@
   
 
   .imgDoctor {
-    width: 250px;
-    height: 300px;
+    width: 180px;
+    height: 150px;
     text-align: center;
   }
 
@@ -42,13 +42,18 @@
   }
   
   .service_head h3 {
-    color: var(--color-bg);
+    color: blueviolet;
     font-size: 1rem;
     text-align: center;
   }
   
   .service_list {
     padding: 2rem;
+    color: blueviolet;
+    box-shadow: 0 2rem 1rem rgb(0 0 0 / 10%);
+    border-radius: 0 0 2rem 2rem;
+    border: 1px solid blueviolet;
+    border-top: none;
   }
   
   .service li {
@@ -63,7 +68,7 @@
   }
   
   .service_list p {
-    font-size: 0.9rem;
+    font-size: 17px;
   }
   
   @media screen and (max-width: 1024px) {
