@@ -10,23 +10,22 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <h5 className={styles["h5"]}>{t("contact.touch")}</h5>
-      <h2>{t("contact.me")}</h2>
 
-      <div className="container">
+      <div className={styles.mainContainerContact}>
+      <h2 className={styles.mainTitle}>Contáctanos</h2>
         <div className={styles.containor}>
           <div className={styles["contact_options"]}>
             <article className={styles["contact_option"]}>
               <MdOutlineEmail className={styles["contact_option-icon"]} />
               <h4>Email</h4>
-              <h5>susmedicos@gmail.com</h5>
+              <h5>alcervalorador@gmail.com</h5>
               <a
                 className={styles["clasa"]}
                 href="mailto:mercadeosusmedicos2015@gmail.com"
                 target="_blank"
                 rel="noreferrer"
               >
-                {t("contact.sendA")}
+                Enviar
               </a>
             </article>
 
@@ -40,21 +39,21 @@ const Contact = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                {t("contact.sendA")}
+                Enviar
               </a>
             </article>
 
             <article className={styles["contact_option"]}>
               <BsWhatsapp className={styles["contact_option-icon"]} />
               <h4>Whatsapp</h4>
-              <h5>+573113725399</h5>
+              <h5>+57 3116142463</h5>
               <a
                 className={styles["clasa"]}
                 href="https://api.whatsapp.com/send?phone=573113725399"
                 target="_blank"
                 rel="noreferrer"
               >
-                {t("contact.sendA")}
+                Enviar
               </a>
             </article>
           </div>
@@ -63,25 +62,32 @@ const Contact = () => {
               className={styles.input}
               type="text"
               name="name"
-              placeholder={t("contact.name")}
+              placeholder='Nombre y Apellido'
               required
             />
             <input
               className={styles.input}
               type="email"
               name="email"
-              placeholder={t("contact.email")}
+              placeholder='Correo Electrónico'
               required
             />
             <textarea
               className={styles.textarea}
               name="message"
-              placeholder={t("contact.message")}
+              placeholder='Estado del Usuario'
+              rows="2"
+              required
+            ></textarea>
+            <textarea
+              className={styles.textarea}
+              name="message"
+              placeholder='Necesidad del Usuario'
               rows="7"
               required
             ></textarea>
-            <button type="submit" className="btn">
-              {t("contact.send")}
+            <button type="submit" className={styles.contactButton}>
+              Enviar
             </button>
           </form>
         </div>

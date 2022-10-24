@@ -1,11 +1,11 @@
 import React from 'react'
-import LogoSeñas from '../assets/images/logo-vidas-señas.png'
+import logoBlanco from '../assets/images/logo-blanco.png'
 import styles from '../styles/Nav.module.css'
 
 const Nav = () => {
   return (
     <div className={styles.navContainer}>
-      <a href="/"><img className={styles.imgLogo} src={LogoSeñas} alt="logo" /></a>
+      <a href="/"><img className={styles.imgLogo} src={logoBlanco} alt="logo" /></a>
         <nav className={styles.navVidas}>
         <a href="/">Servicios</a>
         <a href="/">Contacto</a>

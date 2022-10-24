@@ -3,6 +3,7 @@ import Services from '../src/components/Services.jsx'
 import Contact from '../src/components/Contact.jsx'
 import About from '../src/components/About.jsx'
 import Header from './components/Header.jsx'
+import Footer from './components/Footer.jsx'
 import './App.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <About />
     <Services />
     <Contact />
+    <Footer />
     </>
   );
 }

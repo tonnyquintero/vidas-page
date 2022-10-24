@@ -4,11 +4,39 @@
     grid-template-columns: 30% 58%;
     gap: 12%;
   }
+
+  .mainContainerContact {
+    background-color: #c2cad0;
+    padding-top: 2em;
+    color: blueviolet;
+    text-align: center;
+    padding-bottom: 3em;
+  }
+
+  .contactButton {
+    width: 7em;
+    display: inline-block;
+    color: var(--color-primary);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    font-weight: bold;
+    font-size: larger;
+    cursor: pointer;
+    border: 1px solid blueviolet;
+    transition: var(--transition);
+    background: blueviolet;
+    color: white;
+    height: 3em;
+  }
+
+  .mainTitle {
+    font-size: xx-large;
+    padding-bottom: 1em;
+  }
   
   .containor {
-    width: var(--container-width-lg);
     margin: 0 auto;
-    width: 58%;
+    width: 70%;
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12%;
@@ -25,20 +53,23 @@
     background: white;
     border-radius: 45px;
     width: 12em;
+    height: 2em;
+    padding-top: 0.8em;
   }
+
   
   .h5 {
     color: gray;
   }
   
   .contact_option {
-    background: var(--color-bg-variant);
+    background: #663399;
+    color: white;
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
-    border: 1px solid transparent;
+    border: 2px solid #663399;
     transition: var(--transition);
-    border: 2px solid var(--color-primary-variant);
   }
   
   .contact_option:hover {
@@ -75,10 +106,10 @@
     width: 100%;
     padding: 1.5rem;
     border-radius: 0.5rem;
-    background: transparent;
-    border: 2px solid var(--color-primary-variant);
+    background: white;
+    border: 2px solid blueviolet;
     resize: none;
-    color: var(--color-white);
+    color: white;
   }
   
   @media screen and (max-width: 1024px) {

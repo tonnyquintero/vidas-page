@@ -20,7 +20,7 @@
     margin-top: 0;
   }
   
-  .about_button {
+  .aboutButton {
     width: max-content;
     display: inline-block;
     color: var(--color-primary);
@@ -28,15 +28,15 @@
     border-radius: 0.4rem;
     font-weight: bold;
     cursor: pointer;
-    border: 1px solid var(--color-primary);
+    border: 1px solid blueviolet;
     transition: var(--transition);
-    background: var(--color-primary);
-    color: var(--color-bg);
+    background: blueviolet;
+    color: white;
   }
   
-  .about_button:hover {
-    background: #ba55d3;
-    color: var(--color-bg);
+  .aboutButton:hover {
+    background: white;
+    color: blueviolet;
     border-color: transparent;
   }
   
@@ -65,6 +65,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
+    padding: 0 3em;
+    padding-bottom: 3em;
   }
   
   .about_card {
@@ -89,22 +91,38 @@
   
   .about_icon {
     color: var(--color-primary);
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
+    font-size: 0.5rem;
+    height: 12em;
+    border-radius: 50px;
+  }
+
+  .about_iconi {
+    color: var(--color-primary);
+    font-size: 0.5rem;
+    height: 12em;
+  }
+
+  h1 {
+    color: blueviolet;
+    padding: 1em 0 0.5em 1em;
   }
   
   .about_card h5 {
     font-size: 2rem;
+    margin: 1em;
   }
   
   .about_card small {
-    font-size: 17px;
+    font-size: 19px;
     color: blueviolet;
   }
   
   .about_content {
-    width: 75%;
+    width: 100%;
     margin: 0 auto;
+    text-align: center;
+    background-color: #c2cad0;
+    padding-bottom: 3em;
   }
 
   .about_content p {

@@ -7,17 +7,32 @@
     padding-bottom: 3em;
 }
 
+.headerContai {
+    background-color: white;
+}
+
 .presentation {
     width: 79%;
 }
 
 .bienvenido {
-    width: 20%;
+    width: 100%;
     height: 8em;
-    padding-top: 15em;
+    margin-top: 3em;
+    border-radius: 50px;
+
 
 }
 
+.bienvenidoLogo {
+    width: 100%;
+    height: 8em;
+    margin-top: 3em;
+}
+
+.headerContaino {
+    display: grid;
+}
 
 @media screen and (max-width: 600px) {
   

@@ -6,16 +6,16 @@ import certificado from '../assets/images/certificado.gif'
 import correlacion from '../assets/images/correlacion.gif'
 import noConformidad from '../assets/images/noConformidad.gif'
 import styles from "../styles/Services.module.css";
-import { useTranslation } from "react-i18next";
+
 
 const Services = () => {
-  const [t] = useTranslation("globals");
 
   return (
     <section id="services">
-      <h5 className={styles["h5"]}>{t("experience.skills")}</h5>
-      <h2>{t("experience.title")}</h2>
-      
+      <div className={styles.titles}>
+      <h5 className={styles.h5}>Lo que Podemos ofrecerte</h5>
+      <h2>Nuestros servicios</h2>
+      </div>
       <div className={styles["services_container"]}>
         <article className={styles["service"]}>
         <div className={styles.docContainer}>
@@ -35,7 +35,7 @@ const Services = () => {
           <img className={styles.imgDoctor} src={correlacion} alt="doctor" />
         </div>
           <div className={styles["service_head"]}>
-            <h3>Correlacion Médico Legal</h3>
+            <h3>Correlación Médico Legal</h3>
           </div>
 
           <ul className={styles["service_list"]}>
