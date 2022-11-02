@@ -121,7 +121,14 @@
   
   @media screen and (max-width: 600px) {
     .containor {
-      width: var(--container-width-sm);
+      width: 80%
+    }
+    .contact_options {
+      width: 100%;
+    }
+
+    .form  {
+      width: 80%;
     }
   }
   

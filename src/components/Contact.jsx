@@ -21,7 +21,7 @@ const Contact = () => {
               <h5>alcervalorador@gmail.com</h5>
               <a
                 className={styles["clasa"]}
-                href="mailto:mercadeosusmedicos2015@gmail.com"
+                href="mailto:alcervalorador@gmail.com"
                 target="_blank"
                 rel="noreferrer"
               >
