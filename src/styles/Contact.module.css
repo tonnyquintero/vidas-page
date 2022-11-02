@@ -50,7 +50,7 @@
   
   .clasa {
     color: #663399;
-    background: white;
+    background: #FFFADA;
     border-radius: 45px;
     width: 12em;
     height: 2em;
@@ -64,7 +64,7 @@
   
   .contact_option {
     background: #663399;
-    color: white;
+    color: #FFFADA;
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
@@ -75,7 +75,7 @@
   .contact_option:hover {
     background: #663399;
     border-color: var(--color-primary-variant);
-    color: white;
+    color: #FFFADA;
   }
   
   .contact_option-icon {
@@ -106,10 +106,10 @@
     width: 100%;
     padding: 1.5rem;
     border-radius: 0.5rem;
-    background: white;
+    background: #FFFADA;
     border: 2px solid blueviolet;
     resize: none;
-    color: white;
+    color: #FFFADA;
   }
   
   @media screen and (max-width: 1024px) {

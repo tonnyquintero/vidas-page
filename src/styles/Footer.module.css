@@ -6,7 +6,7 @@
 }
 
 .footer a {
-    color: white;
+    color: #FFFADA;
     font-size: x-large;
 }
 
@@ -37,7 +37,7 @@ li {
 }
 
 .tonny {
-    color: white;
+    color: #FFFADA;
     font-size: medium;
 }
 
@@ -60,7 +60,7 @@ li {
 }
 .footer_copyrigth {
     margin-bottom: 8rem;
-    color: white;
+    color: #FFFADA;
 }
 
 @media screen and (max-width: 600px) {

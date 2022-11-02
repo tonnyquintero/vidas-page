@@ -30,12 +30,12 @@
     cursor: pointer;
     border: 1px solid blueviolet;
     transition: var(--transition);
-    background: blueviolet;
-    color: white;
+    background: #FFFADA;
+    color: blueviolet;
   }
   
   .aboutButton:hover {
-    background: white;
+    background: #FFFADA;
     color: blueviolet;
     border-color: transparent;
   }
@@ -70,7 +70,7 @@
   }
   
   .about_card {
-    background: white;
+    background: #FFFADA;
     border: 1px solid blueviolet;
     border-radius: 1rem;
     padding: 2rem;
@@ -103,7 +103,7 @@
   }
 
   h1 {
-    color: blueviolet;
+    color: #FFFADA;
     padding: 1em 0 0.5em 1em;
   }
   
@@ -121,7 +121,7 @@
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    background-color: #c2cad0;
+    background-color: blueviolet;
     padding-bottom: 3em;
   }
 
