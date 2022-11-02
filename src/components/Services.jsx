@@ -24,8 +24,8 @@ const Services = () => {
   return (
     <section id="services">
       <div className={styles.titles}>
-      <h5 className={styles.h5}>Lo que Podemos ofrecerte</h5>
-      <h2>Nuestros servicios</h2>
+      <h5 className={styles.h5T}>Lo que Podemos ofrecerte</h5>
+      <h2 className={styles.h2T}>Nuestros servicios</h2>
       </div>
       <div className={styles["services_container"]}>
         <article className={styles["service"]}>
@@ -126,6 +126,9 @@ const Services = () => {
 
           <ul className={styles["service_list"]}>
               <p className={styles.pService}>Una vez que recibes una calificación por parte de alguna entidad tal como la EPS, el ARL, Fondo de Pensiones, Junta Regional, etc. Puedes hacer una apelación de "no conformidad" Este servicio cumple con la resolución 1239 del 2022 emitida por la secretaría de salud.</p>
+              <div className={styles.buttonModalContainer}>
+              <button className={styles.openModalButton}><a className={styles.openModalButtonA} target='blank' href="https://consultorsalud.com/wp-content/uploads/2022/07/Res-2050-de-2022-manuales-juntas-de-calificacion-de-invalidez.pdf">Resolución 2050 de 2022</a></button>
+              </div>
           </ul>
         </article>
       </div>

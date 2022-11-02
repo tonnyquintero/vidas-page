@@ -22,7 +22,7 @@ const Footer = () => {
         <li><a href='#'>Inicio</a></li>
         <li><a href='#about'>Acerca de Nosótros</a></li>
         <li><a href='#services'>Servicios</a></li>
-        <li><a href='#portfolio'>Cotización</a></li>
+        <li><a href='#contact'>Cotización</a></li>
         <li><a href='#contact'>Contacto</a></li>
       </ul>
 
@@ -33,7 +33,7 @@ const Footer = () => {
       </div>
 
       <div className={styles.tonnyDiv}>
-        <small className={styles['tonny']}>Desarrollado con 💚 por Tonny Quintero &copy; Todos los Derechos Reservados.</small>
+        <small className={styles['tonny']}>Desarrollado con 💚 por Tonny Quintero &copy; <br /> Todos los Derechos Reservados.</small>
       </div>
 
     </footer>

@@ -26,3 +26,9 @@
   a {
     color: #FFFADA;
   }
+
+  @media screen and (max-width: 600px) {
+    .navContainer {
+      display: none;
+    }
+  }

@@ -121,7 +121,7 @@
   
   @media screen and (max-width: 600px) {
     .containor {
-      width: 80%
+      width: 80%;
     }
     .contact_options {
       width: 100%;
@@ -129,6 +129,10 @@
 
     .form  {
       width: 80%;
+    }
+
+     .mainContainerContact {
+      padding-right: 2.5em;
     }
   }
   

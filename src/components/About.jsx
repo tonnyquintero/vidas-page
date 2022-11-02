@@ -10,6 +10,7 @@ const About = () => {
 
   return (
     <>
+    <section id="about">
     <div className={styles.about_content}>
       <h1>Acerca de Nosótros</h1>
       <div className={styles.about_cards}>
@@ -33,6 +34,7 @@ const About = () => {
         Pide tu Cita
       </a>
     </div>
+    </section>
     </>
   );
 };

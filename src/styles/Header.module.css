@@ -12,7 +12,10 @@
 }
 
 .presentation {
-    width: 79%;
+    width: 40%;
+}
+.presentation1 {
+    width: 40%;
 }
 
 .bienvenido {
@@ -37,6 +40,17 @@
 @media screen and (max-width: 600px) {
   
     .presentation {
-      display: none;
+      width: 76%;
+      padding-left: 0;
+      margin-left: 0;
+    }
+    .presentation1 {
+        display: none;
+    }
+    .headerContai {
+
+        width: 120%;
+        margin-left: -4.5em;
+        height: 25em;
     }
 }
