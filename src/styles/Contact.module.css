@@ -109,7 +109,7 @@
     background: #FFFADA;
     border: 2px solid blueviolet;
     resize: none;
-    color: #FFFADA;
+    color: blueviolet;
   }
   
   @media screen and (max-width: 1024px) {
