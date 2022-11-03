@@ -1,12 +1,27 @@
-import React from "react";
+import React, {useRef} from "react";
+import emailjs from 'emailjs-com'
 import { MdOutlineEmail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
 import styles from "../styles/Contact.module.css";
-import { useTranslation } from "react-i18next";
+
 
 const Contact = () => {
-  const [t] = useTranslation("globals");
+  
+  const form = useRef();
+  
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_yj6pdsc', 'template_q9vshyq', form.current, 'Wl-IzJ1QuHrMQ0XAc')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+
+      e.target.reset()
+  };
 
   return (
     <section id="contact">
@@ -57,7 +72,8 @@ const Contact = () => {
               </a>
             </article>
           </div>
-          <form className={styles["form"]}>
+          <form className={styles["form"]} ref={form}
+          onSubmit={sendEmail}>
             <input
               className={styles.input}
               type="text"

@@ -164,15 +164,7 @@
     .services_container {
       grid-template-columns: 1fr;
       gap: 1.5rem;
-      padding-right: 2.5em;
-    }
-    .h5T {
 
-      padding-right: 2em;
-    }
-    .h2T {
-
-      padding-right: 1em;
     }
   }
   

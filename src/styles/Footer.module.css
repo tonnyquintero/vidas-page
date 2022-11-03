@@ -67,19 +67,10 @@ li {
     .permalinks {
         flex-direction: column;
         gap: 1.5rem;
+        padding-left: 0em;
     }
     .footer_socials {
         margin-bottom: 2.6rem;
     }
-    .footer {
-
-        margin-left: -5em;
-    }
-    .tonny {
-padding-left: 2em;
-    }
-    .footer_logo {
-
-        padding-left: 2.5em;
-    }
+    
 }
